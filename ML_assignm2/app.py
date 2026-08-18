@@ -35,7 +35,7 @@ st.write(
 # Load preprocessing information
 # --------------------------------------------------
 
-with open("ML_assignm2/model/feature_info.json", "r") as f:
+with open("model/feature_info.json", "r") as f:
     feature_info = json.load(f)
 
 target_column = feature_info["target_column"]
